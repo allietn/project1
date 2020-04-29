@@ -1,0 +1,39 @@
+body {
+    /* Everything is Questrial */
+    font-family: 'Questrial', sans-serif;
+    color: black;
+}
+
+h1 {
+    /* Everything is Helvetica */
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 800 !important;
+    font-size: 36px;
+    line-height: 36pt;
+    color: #0041E6; 
+}
+
+.jumbotron {
+    /* Background */
+    background-color: #f0f0ff;
+    min-height: 600px;
+    padding: 0px 0px 0px 0px;
+}
+
+.rightcol img{
+    width:130%;
+    height:130%;
+}
+
+.leftcol{
+    padding: 30px 10px 10px 10px;
+}
+
+.btn-primary {
+    background-color: #F9CDBE;
+    border-color: #F9CDBE;
+    font-weight: 900 !important;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+}
