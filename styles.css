@@ -7,33 +7,64 @@ body {
 h1 {
     /* Everything is Helvetica */
     font-family: 'Helvetica', sans-serif;
-    font-weight: 800 !important;
+    font-weight: 900;
     font-size: 36px;
     line-height: 36pt;
-    color: #0041E6; 
+    color: #0041E6;
 }
 
-.jumbotron {
+.jumbotron-main {
     /* Background */
     background-color: #f0f0ff;
+    background-image: url('https://mcusercontent.com/86e74a836edba8a07275b8877/images/6592fc5c-a9d2-4db8-ae9a-eb2c9c606fd7.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
     min-height: 600px;
-    padding: 0px 0px 0px 0px;
-}
-
-.rightcol img{
-    width:130%;
-    height:130%;
-}
-
-.leftcol{
-    padding: 30px 10px 10px 10px;
+    padding: 150px 1000px 100px 100px;
 }
 
 .btn-primary {
     background-color: #F9CDBE;
     border-color: #F9CDBE;
-    font-weight: 900 !important;
+    font-weight: 900;
     font-size: 18px;
     color: black;
     text-transform: uppercase;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+.jumbotron-fluid {
+    background-color: #f0f0ff;
+    min-height: 550px;
+    padding: 75px 300px 50px 300px;
+}
+
+.jumbotron-footer {
+    background-color: #5747E2;
+    padding: 10px !important;
+    max-height: 100px;
+    color: white;
+}
+
+i {
+    color: #5747E2;
+    font-size: 100px;
+}
+
+.how-to {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 100px 0px 100px 0px;
+}
+
+th {
+    background-color: plum;
+    color: white;
+    text-align: center;
 }
